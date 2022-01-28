@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <title>게시글 수정 폼</title>
 </head>
@@ -22,13 +25,13 @@
     }
 </style>
 <head th:replace="layouts/header.html :: head"></head><br/>
-<body>
-<h1>이범기 SpringBoot 게시판 공부</h1>
+<body style="font-family: 'Jua', sans-serif">
+<h1 style="font-family: 'Jua', sans-serif">이범기 SpringBoot 게시판 공부</h1>
 <div class="layout">
     <form th:action="@{/board/update/{id}(id = ${board.id})}" method="post">
-    <input name ="title" type="text" th:value="${board.title}"> <br>         <!--input 은 value-->
-    <textarea name="content" th:text="${board.content}"></textarea><br>     <!--textarea 는 text-->
-    <button type="submit"> 수정 </button>
+    <input class="form-control" name ="title" type="text" th:value="${board.title}"> <br>         <!--input 은 value-->
+    <textarea style="width: 500px; height: 300px;" class="form-control" name="content" th:text="${board.content}"></textarea><br>     <!--textarea 는 text-->
+    <button class="btn btn-primary" type="submit"> 수정 </button>
     </form>
 </div>
 </body>
