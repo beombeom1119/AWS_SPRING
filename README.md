@@ -13,3 +13,4 @@ Youtube 강의 한코딩님의 스프링부트를 이용한 게시판 강의를 
 해당 프로젝트 설명 링크 : https://baam-ki.tistory.com/25?category=929988
 
 
+아마존 서버 배포 : https://baam-ki.tistory.com/category/IT/AWS
