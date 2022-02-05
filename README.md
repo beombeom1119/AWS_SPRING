@@ -2,7 +2,10 @@ Youtube 강의 한코딩님의 스프링부트를 이용한 게시판 강의를 
 
 
 <p align="center" style="..."> 
-<img src="https://github.com/beombeom1119/beombeom1119/blob/main/BEOM_IMG/AWS_SPRING.png?raw=true" width="90%" height="90%" title="px(픽셀) 크기 설정" alt="이범기(나)" align="center"></img>
+<img src="https://github.com/beombeom1119/beombeom1119/blob/main/BEOM_IMG/AWS_배포.png?raw=true" width="90%" height="90%" title="px(픽셀) 크기 설정" alt="이범기(나)" align="center"></img>
+<br/>
+<img src="https://github.com/beombeom1119/beombeom1119/blob/main/BEOM_IMG/주소오.png?raw=true" width="90%" height="90%" title="px(픽셀) 크기 설정" alt="이범기(나)" align="center"></img>
+
 </p><br/><br/>
 
 
